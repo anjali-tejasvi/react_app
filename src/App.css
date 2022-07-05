@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #2110c2;
+  
+}
+
+/* contact us form */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  margin-left: 50px;
+  margin-right: 60px;
+ 
+
+}
+
+input[type=submit] {
+  background-color: #0b62c5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0276be;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+/* About us */
+.about{
+  margin: 20px;
+  padding: 50px;
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+.dark{
+  background-color: rgb(25, 200, 142);
+}
+
+.delete{
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  margin-left: 100px;
+  font-size: 20px;
+  padding: 5px;
+  width: 80px;
+  color: #FFFFFF;
+  margin-top: -10px;
+}
+
+.delete:hover{
+  background-color: rgb(227, 30, 30);
+}
+
+.edit{
+  border-radius: 4px;
+  background-color: #e4d20b;
+  border: none;
+  margin-left: 100px;
+  font-size: 20px;
+  padding: 6px;
+  width: 80px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.edit:hover{
+  background-color: #bdce04;
+  text-decoration: none;
+}
+
+.tableHead{
+  background-color: #333;
+  color: #FFFFFF;
+}
+
+.tablerow{
+  border: 2px solid black;
+  margin: 50px;
+  padding: 10px;
+}
+
+.addUser{
+  border-radius: 4px;
+  background-color: #2911f9;
+  border: none;
+  margin-left: 400px;
+  color: #FFFFFF;
+  font-size: 20px;
+
+}
